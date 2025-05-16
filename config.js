@@ -18,7 +18,7 @@ function convertToBool(text, fault = "true") {
 
 DATABASE_URL =
   process.env.DATABASE_URL === undefined
-    ? "./whatsasena.db"
+    ? "./gotarxmd.db"
     : process.env.DATABASE_URL
 DEBUG =
   process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
